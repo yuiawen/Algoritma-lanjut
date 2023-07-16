@@ -1,0 +1,14 @@
+public class cobaDoWhile {
+    public static void main(String x[]) {
+        int i = 1;
+        int j;
+        do {
+            j = 1;
+            do {
+                System.out.println(i);
+                j++;
+            } while (j <= 5);
+            i++;
+        } while (i <= 3);
+    }
+}
